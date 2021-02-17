@@ -1,0 +1,50 @@
+h1 {
+  color: #1197f0;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 10px auto;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive; }
+
+p {
+  color: #AC58FA;
+  background-color: pink;
+  width: 100%;
+  height: 50px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 25px; }
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 5s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+  animation-iteration-count: infinite; }
+
+@keyframes typewriter {
+  from {
+    width: 0; }
+  to {
+    width: 100em; } }
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75); }
+  to {
+    border-right-color: transparent; } }
+
+.texto1, .texto2, .texto3 {
+  font-family: "Kaushan Script", cursive;
+  background-color: pink;
+  color: #1197f0; }
+
+.texto1 {
+  font-size: 40px;
+  border-weight: 10px; }
+
+.texto2 {
+  font-size: 30px;
+  border-weight: 25px; }
+
+.texto3 {
+  font-size: 20px;
+  border-weight: 30px; }

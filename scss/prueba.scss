@@ -1,0 +1,74 @@
+$color-principal:#1197f0;
+$color-parrafo-principal:#AC58FA;
+$fuente-principal:'Kaushan Script', cursive;
+
+
+h1{
+	color:$color-principal;
+	font-size: 50px;
+	font-weight:bold;
+	line-height: 20px;
+	margin:10px auto;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+}
+
+p{
+	color: $color-parrafo-principal;
+	background-color: pink;
+	width: 100%;
+	height: 50px;
+	font-family: $fuente-principal;
+	font-size: 25px;
+
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 5s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    animation-iteration-count:infinite;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+%textocomun{
+	font-family: $fuente-principal;
+	background-color: pink;
+	color:$color-principal;
+}
+
+@mixin cambiarBorde($ancho,){
+	border-weight:$ancho;
+}
+.texto1{
+	@extend %textocomun;
+ font-size: 40px;
+ @include cambiarBorde(10px);
+}
+.texto2{
+	@extend %textocomun;
+ font-size: 30px;
+ @include cambiarBorde(25px);
+}
+.texto3{
+	@extend %textocomun;
+ font-size: 20px;
+ @include cambiarBorde(30px);
+}
+
+

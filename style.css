@@ -1,0 +1,234 @@
+/*header*/
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100% 
+	height:150px;
+	background-image:transparent;
+}
+main{
+	width: 100%
+	height:1000px;
+	background-color:transparent;
+
+}
+footer{
+	width: 100% 
+	height:100px;
+	
+}
+ul{
+	list-style-type: none;
+	font-size: 0px;
+}
+
+li{
+	display: inline-block;
+	width: 20%;
+	font-size: 15px;
+	position: relative;
+}
+ul ul{
+	display: none;
+	position: absolute;
+}
+ul ul li{
+	display: block;
+}
+ul li:hover ul {
+	display: block;
+	background-color:transparent;
+}
+.navegacionmenu ul li{
+	font-size: 20px;
+	color: purple;
+	background-color: transparent;
+	z-index: 3;
+
+}
+
+.menu{
+	width: 100%; 
+	height:20%;
+	background-:transparent;	
+	padding-left: 10%;
+	padding-top: 1%;
+}
+#logo{
+	width: 500px;
+}
+
+.img{
+	display: block;
+	margin: auto;
+}
+.barraNavegacion{
+	background-image:linear-gradient(to left,lightsalmon,violet, pink);
+}
+
+.navegacion li a{
+	color: #8A084B;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	text-decoration: none;
+	list-style: none;
+	font-weight: bold;
+}
+.navegacion li{
+	list-style: none;
+}
+
+/*main*/
+
+.imagen{
+	width: 1400px;
+	height: 700px;
+	justify-content: center;
+
+}
+.padre{
+background-color: pink;
+width:1300px; 
+height:400px;
+display: grid;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin: 50px;
+grid-template-columns: 100% 100% 100%;
+position: relative;
+animation: animacion 7s infinite;
+
+}
+@keyframes animacion{
+	from{
+		right:  0%;
+	}
+	50%{
+right: 100%;
+	}
+	to{
+right: 200%
+	}
+}
+
+.hijos{
+	border: solid 2px pink;
+	width: 500px;
+	height: 400px;
+	 
+}
+
+.hijo1{
+	background-image: : lightsalmon;
+
+
+}
+.hijo2{
+	background-color: violet;
+}
+.hijo3{
+	background-color: lightblue;
+}
+.contenedor{
+	height: 500px;
+
+	display: grid;
+	grid-template-rows: 210px 210px;
+	grid-template-columns: 300px 300px;
+	grid-gap: 10px;
+	justify-items: center;
+	justify-content: center;
+
+}
+
+}
+.foto1{
+background-color: red;
+}
+.foto2{
+	background-color: transparent;
+}
+.foto3{
+	background-color: transparent;
+}
+.foto4{
+	background-color: 
+}
+
+/*footer*/
+
+footer {
+	background-image:linear-gradient(to left,pink, salmon);
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer a {
+	margin: 10px 15px;
+}
+
+
+
+
+.contacto{
+	color: white;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	font-weight: normal;
+}
+
+.redesSociales{
+	color: white;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	font-weight: normal;
+
+}
+.agenda{
+	color: white;
+	background-color: violet;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	font-weight: normal;
+	text-align: center;
+}
+
+.formulario{
+	color: white;
+	background-color: violet;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	font-weight: normal;
+	text-align: center;
+}
+#cf {
+
+position:relative;
+height:281px;
+width:450px;
+margin:0 auto;
+}
+
+#cf img {
+position:absolute;
+left:0;
+transition: opacity 1s ease-in-out;
+}
+
+
+
+#cf img.top:hover {
+
+ opacity:0;
+
+}
+ 
+}
