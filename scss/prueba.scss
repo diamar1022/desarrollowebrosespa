@@ -1,4 +1,4 @@
-$color-principal:#1197f0;
+$color-principal:blue;
 $color-parrafo-principal:#FE2EC8;
 $fuente-principal:'Kaushan Script', cursive;
 
@@ -13,6 +13,16 @@ h1{
 	font-family: 'Kaushan Script', cursive;
 }
 
+h2{
+	color:$color-principal;
+	font-size: 50px;
+	font-weight:bold;
+	line-height: 20px;
+	margin:10px auto;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+
+}
 p{
 	color: $color-parrafo-principal;
 	width: 100%;
