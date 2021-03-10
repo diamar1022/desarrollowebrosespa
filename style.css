@@ -195,7 +195,7 @@ footer {
 }
 .agenda{
 	color: white;
-	background-color: violet;
+	background-color: transparent;
 	font-size: 20px;
 	font-family:'Xanh Mono', monospace;
 	font-weight: normal;
@@ -250,7 +250,8 @@ h3{
 
 }
 h1{
-	color:#FA5882;
+	color:#FA5882
+	;
 	font-size: 60px;
 	line-height: 20px;
 	margin:40px auto;
