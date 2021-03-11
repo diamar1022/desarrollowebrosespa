@@ -200,15 +200,17 @@ footer {
 	font-family:'Xanh Mono', monospace;
 	font-weight: normal;
 	text-align: center;
+	
 }
 
 .formulario{
-	color: white;
-	background-color: violet;
+	color: violet;
+	background-color:#F6CED8;
 	font-size: 20px;
 	font-family:'Xanh Mono', monospace;
 	font-weight: normal;
 	text-align: center;
+
 }
 #cf {
 
@@ -250,11 +252,10 @@ h3{
 
 }
 h1{
-	color:#FA5882
-	;
-	font-size: 10px;
+	color:#FA5882;
+	font-size: 50px;
 	line-height: 20px;
-	margin:100px auto;
+	margin:10px auto;
 	text-align: center;
 	font-family: 'Kaushan Script',;
 }

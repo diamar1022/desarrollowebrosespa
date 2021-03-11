@@ -1,11 +1,13 @@
 h1 {
-  color: #FA5882;
-  font-size: 100px;
+  color: violet;
+  font-size: 50px;
   font-weight: bold;
   line-height: 20px;
   margin: 10px auto;
   text-align: center;
-  font-family: 'Kaushan Script', cursive; }
+  font-family: 'Kaushan Script', cursive; 
+  z-index: 1;
+}
 
 p {
   color: #AC58FA;
@@ -48,3 +50,15 @@ p {
 .texto3 {
   font-size: 20px;
   border-weight: 30px; }
+
+.card-group{
+  margin-top: 25px;
+}
+.tips{
+  font-family: "Kaushan Script", cursive;
+  background-color: pink;
+  color: #1197f0; }
+}
+.col{
+  margin-top: 25px;
+}
