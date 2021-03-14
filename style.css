@@ -58,6 +58,9 @@ ul li:hover ul {
 	background-:transparent;	
 	padding-left: 10%;
 	padding-top: 1%;
+	font-family: 'Xanh Mono', monospace;
+	font-size: 16px;
+
 }
 #logo{
 	width: 500px;
@@ -69,11 +72,16 @@ ul li:hover ul {
 }
 .barraNavegacion{
 	background-image:linear-gradient(to left,lightsalmon,violet, pink);
+	width: 100%;
+	font-size: 20px;
+	font-family:'Xanh Mono', monospace;
+	font-weight: normal;
+	
 }
 
-.navegacion li a{
+#navegacion li a{
 	color: #8A084B;
-	font-size: 20px;
+	font-size: 50px;
 	font-family:'Xanh Mono', monospace;
 	text-decoration: none;
 	list-style: none;
@@ -86,7 +94,7 @@ ul li:hover ul {
 /*main*/
 
 .imagen{
-	width: 1400px;
+	width: 1350px;
 	height: 700px;
 	justify-content: center;
 
@@ -201,6 +209,7 @@ footer {
 	font-weight: normal;
 	text-align: center;
 	
+	
 }
 
 .formulario{
@@ -233,6 +242,7 @@ transition: opacity 1s ease-in-out;
  opacity:0;
 
 }
+
 h3{
 	color:white;
 	font-size: 60px;
@@ -258,4 +268,9 @@ h1{
 	margin:10px auto;
 	text-align: center;
 	font-family: 'Kaushan Script',;
+}
+.nav-link active{
+	z-index: auto;
+}
+
 }
